@@ -1,6 +1,6 @@
 const express = require("express");
 const sql = require("mysql");
-const handle = require("express-handlebars");
+const exphbs = require("express-handlebars");
 
 var PORT = process.env.PORT || 8080;
 
